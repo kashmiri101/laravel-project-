@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Gilroy-Black'; 
+    src: url('../fonts/Gilroy-Black.ttf') format('woff'); 
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium'; 
+    src: url('../fonts/Gilroy-Medium.ttf') format('woff'); 
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold'; 
+    src: url('../fonts/Gilroy-Bold.ttf') format('woff'); 
+}
+
+@font-face {
+    font-family: 'Gilroy-Light'; 
+    src: url('../fonts/Gilroy-Light.ttf') format('woff'); 
+}
+
+@font-face {
+    font-family: 'Gilroy-Heavy'; 
+    src: url('../fonts/Gilroy-Heavy.ttf') format('woff'); 
+}
+
+
+/* Existing CSS styles */
+.tabcontent {
+  display: none;
+}
+
+.tablink {
+  background-color: #f2f2f2;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.tablink:hover {
+  background-color: #ddd;
+}
+
+
+
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+  ::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+  ::-webkit-scrollbar-thumb {
+  background: #888; 
+    border-radius:10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  
+  background: #555; 
+} 
